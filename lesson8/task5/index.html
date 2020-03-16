@@ -14,21 +14,37 @@
       * {
         box-sizing: border-box;
       }
-
-      div {
-        background-color: aqua;
-        border: 3px solid black;
+      .container_main {
+        background-color: blue;
+        border: 2px solid black;
         padding: 50px;
-        margin-bottom: 50px;
+        margin: 50px;
+      }
+      .container_main_one {
+        background-color: yellow;
+        border: 2px solid black;
+        padding: 50px;
+      }
+      .container_main_one_two {
+        background-color: green;
+        border: 2px solid black;
+        padding: 50px;
+      }
+      .container_main_one_two_three {
+        background-color: pink;
+        border: 2px solid black;
+        height: 100px;
       }
     </style>
   </head>
 
   <body>
-    <div class="rectangle1">I am learning box model in CSS!</div>
-    <div class="rectangle2">I am learning box model in CSS!</div>
-    <div class="rectangle2">I am learning box model in CSS!</div>
-    <div class="rectangle4">I am learning box model in CSS!</div>
-    <div class="rectangle4">I am learning box model in CSS!</div>
+    <div class="container_main">
+      <div class="container_main_one">
+        <div class="container_main_one_two">
+          <div class="container_main_one_two_three"></div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
