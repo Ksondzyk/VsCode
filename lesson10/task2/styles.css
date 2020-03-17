@@ -10,11 +10,14 @@ body {
   background-color: yellow;
   width: 100%;
 }
+.nvigation {
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
 .nav-list {
-  padding: 10px;
   display: flex;
   list-style: none;
-  /* margin-left: 10px; */
 }
 .nav-item {
   margin-left: 16px;
