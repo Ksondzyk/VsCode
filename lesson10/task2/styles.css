@@ -48,7 +48,7 @@
   list-style: none;
 }
 .list_item {
-  padding-top: 40px;
+  line-height: 40px;
 }
 .footer {
   height: 40px;
