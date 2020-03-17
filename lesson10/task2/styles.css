@@ -19,6 +19,7 @@ body {
   display: flex;
   list-style: none;
   margin-left: 16px;
+  margin-left: 0;
 }
 .nav-item {
   margin-right: 16px;
