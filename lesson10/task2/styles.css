@@ -14,6 +14,7 @@ body {
   padding: 10px;
   display: flex;
   list-style: none;
+  margin-left: 16px;
 }
 .nav-item {
   margin-left: 16px;
@@ -24,11 +25,11 @@ body {
   display: flex;
 }
 .myContent {
-  width: 100%;
   background-color: pink;
   display: flex;
   align-items: center;
   justify-content: center;
+  flex: 1;
 }
 
 .siteBar {
