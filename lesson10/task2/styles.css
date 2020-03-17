@@ -19,7 +19,7 @@ body {
 .nav-list {
   display: flex;
   list-style: none;
-  padding: 20px;
+  padding: 17px;
 }
 .nav-item {
   margin-left: 16px;
