@@ -23,7 +23,6 @@ body {
 }
 .nav-item {
   margin-left: 16px;
-  margin-right: 16px;
 }
 .content {
   height: calc(100vh - 80px);
