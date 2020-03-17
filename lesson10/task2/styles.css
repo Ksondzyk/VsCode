@@ -19,10 +19,11 @@ body {
 .nav-list {
   display: flex;
   list-style: none;
-  padding: 17px;
+  padding: 20px;
 }
 .nav-item {
   margin-left: 16px;
+  margin-right: 16px;
 }
 .content {
   height: calc(100vh - 80px);
