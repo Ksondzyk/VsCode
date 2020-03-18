@@ -9,4 +9,4 @@ console.log("a + b = ", d);
 const e = a / b;
 console.log("a / b = ", e);
 const f = a * b;
-console.log("a * b =", f);
+console.log("a * b = ", f);
