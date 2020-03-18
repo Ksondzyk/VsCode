@@ -1,11 +1,11 @@
 const e = "I'm a string";
-console.log("a: ", typeof a);
+console.log("a: ", typeof "I'm a string");
 const f = false;
-console.log("f: ", typeof f);
+console.log("f: ", typeof false);
 const g = true;
-console.log("g: ", typeof g);
+console.log("g: ", typeof true);
 const h = null;
-console.log("h: ", typeof h);
+console.log("h: ", typeof null);
 const i = undefined;
 console.log("i: ", typeof i);
 const j = Symbol("I'm a Symbol");
