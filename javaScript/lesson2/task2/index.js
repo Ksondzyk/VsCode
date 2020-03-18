@@ -1,12 +1,12 @@
-const e = "I'm a string";
+const a = "I'm a string";
 console.log("a: ", typeof "I'm a string");
-const f = false;
+const b = false;
 console.log("f: ", typeof false);
-const g = true;
+const c = true;
 console.log("g: ", typeof true);
-const h = null;
+const d = null;
 console.log("h: ", typeof null);
-const i = undefined;
+const e = undefined;
 console.log("i: ", typeof i);
 const j = Symbol("I'm a Symbol");
 console.log("j: ", typeof j);
