@@ -1,8 +1,8 @@
-let m = 10;
-let n = 12;
+let m = 7;
+let n = 17;
 let result = 0;
 for (let i = m; i <= n; i++) {
-  if (i % 2 === 0 || !(i % 4 === 0)) {
+  if (i % 2 === 0 && i % 4 != 0) {
     result += i + m + n;
   } else if (i % 3 === 0) {
     result -= i;
