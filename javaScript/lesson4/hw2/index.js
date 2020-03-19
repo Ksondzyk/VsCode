@@ -1,13 +1,14 @@
 let m = 10;
 let n = 12;
-let result = 0;
+let res = 0;
 for (let i = m; i < n && n <= 50; i++) {
+  let result = res;
   if (i % 2 === 0 || !(i % 4 === 0)) {
-    result += i + m + n;
+    res += i + m + n;
   } else if (i % 3 === 0) {
-    result -= i;
+    res -= i;
   } else if (i % 4 === 0) {
-    result *= i;
+    res *= i;
   }
   if (i % 5 === 0) {
     console.log(i);
