@@ -4,4 +4,4 @@ while (n > 0) {
   sum += n;
   n -= 1;
 }
-console.log("Result: ", sum);
+console.log("Result: ", +sum);
