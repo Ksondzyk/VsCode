@@ -6,6 +6,7 @@ do {
   if (m % 2 === 1) {
     result *= m;
   }
-} while (n > 0);
+  m++;
+} while (m <= n);
 
 console.log("Result: " + result);
