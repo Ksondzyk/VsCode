@@ -1,4 +1,4 @@
-let m = 5;
+let m = 10;
 let n = 12;
 let result = 0;
 for (let i = m; i < n; i++) {
