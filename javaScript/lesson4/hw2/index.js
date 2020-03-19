@@ -11,5 +11,6 @@ for (let i = m; i < n; i++) {
   } else if (i === 5) {
     console.log(i);
   } else {
+    console.log(result);
   }
 }
