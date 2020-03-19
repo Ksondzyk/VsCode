@@ -1,6 +1,6 @@
 let m = 10;
 let n = 12;
-const result = 0;
+let result = 0;
 for (let i = m; i < n && n <= 50; i++) {
   if (i % 2 === 0 || !(i % 4 === 0)) {
     result += i + m + n;
