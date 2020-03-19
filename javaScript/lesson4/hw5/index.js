@@ -6,5 +6,4 @@ for (let i = 0; i < 1000; i++) {
 
 let res2 = sum % 1234;
 let res1 = sum / 1234;
-let res = res1 < res2;
-console.log(!!res);
+console.log(res1 < res2);
