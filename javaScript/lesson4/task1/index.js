@@ -1,7 +1,6 @@
 let n = 110;
 let sum = 0;
-while (n > 0) {
-  sum += n;
-  n -= 1;
+for (let i = 1; i <= n; i++) {
+  sum += i;
 }
-console.log("Result: " + sum);
+console.log("Result: ", sum);
