@@ -10,7 +10,3 @@ do {
 } while (m <= n);
 
 console.log("Result: ", result);
-
-
-
-
