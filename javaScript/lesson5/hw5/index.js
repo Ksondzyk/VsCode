@@ -1,16 +1,20 @@
 function compareSums(a, b, c, d) {
   let from = 0;
   let to = 0;
-  let result = from > to ? true : false;
   for (let i = a; i <= b; i++) {
     from += i;
   }
   for (let i = c; i <= d; i++) {
     to += i;
   }
-  return function(from, to) {
-    return result;
+  return function sum(from, to) {
+    if (from > to) {
+      return !!from;
+    } else {
+      return !!to;
+    }
   };
 }
 
-compareSums(5, 8, 9, 12);
+const result = compareSums(5, 8, 9, 12);
+console.log(result);

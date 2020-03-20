@@ -1,10 +1,10 @@
-function getPrimes(arg) {
+function getPrimes(n) {
   let result = 1;
-  for (let i = 1; i <= arg; i++) {
-    result = i;
-    if (result / result === 1 && result != 1) {
-      console.log(result);
-    }
+  for (let i = 2; i <= n; i++) {
+    console.log(i);
+  }
+  for (let m = 2; m / 2; m++) {
+    console.log(m);
   }
 }
 
